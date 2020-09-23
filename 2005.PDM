@@ -1,0 +1,120 @@
+[Root]
+Most Recent Package=mmp Setup Package
+
+
+[Package|mmp Setup Package|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=d:\Mahesh
+
+[Package|mmp Setup Package|Configure DAO ISAMs]
+Applicable=No
+
+[Package|mmp Setup Package|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|mmp Setup Package|Files Found]
+
+[Package|mmp Setup Package|Files Released]
+2005.EXE=
+
+[Package|mmp Setup Package|Missing Dependency Information]
+G:\WINDOWS\SYSTEM32\WMP.DLL=
+C:\WINDOWS\SYSTEM\MSDXM.OCX=
+C:\WINDOWS\SNDREC32.EXE=
+E:\Plz don't delete it\2005.EXE=
+G:\WINDOWS\SYSTEM32\WMP.OCX=
+
+[Package|mmp Setup Package|Out-of-Date Dependency Information]
+
+[Package|mmp Setup Package|Files Added]
+2005.exe=
+G:\WINDOWS\SYSTEM32\WMP.OCX=
+
+[Package|mmp Setup Package|Files Removed]
+
+[Package|mmp Setup Package|Files In Project]
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SNDREC32.EXE=Yes
+C:\WINDOWS\SYSTEM\MSDXM.OCX=Yes
+G:\WINDOWS\SYSTEM32\WMP.DLL=Yes
+C:\WINDOWS\SYSTEM\MCI32.OCX=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=Yes
+D:\MAHESHMP.EXE=Yes
+G:\WINDOWS\SYSTEM32\WMP.OCX=Yes
+
+[Package|mmp Setup Package|Configure Registry Files]
+Applicable=No
+
+[Package|mmp Setup Package|Configure Remote Servers]
+Applicable=No
+
+[Package|mmp Setup Package|Install Locations]
+C:\WINDOWS\Desktop\Maheshmpq.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SNDREC32.EXE=$(AppPath)
+C:\WINDOWS\SYSTEM\MSDXM.OCX=$(WinSysPath)
+G:\WINDOWS\SYSTEM32\WMP.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MCI32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+E:\Plz don't delete it\2005.EXE=$(AppPath)
+G:\Documents and Settings\MAHESH\Desktop\2005.EXE=$(AppPath)
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=$(WinSysPath)
+D:\MAHESHMP.EXE=$(AppPath)
+G:\WINDOWS\SYSTEM32\WMP.OCX=$(AppPath)
+
+[Package|mmp Setup Package|Configure Shared Files]
+Applicable=Yes
+C:\WINDOWS\Desktop\Maheshmpq.exe=No
+C:\WINDOWS\SNDREC32.EXE=Yes
+E:\Plz don't delete it\2005.EXE=Yes
+G:\Documents and Settings\MAHESH\Desktop\2005.EXE=No
+D:\MAHESHMP.EXE=Yes
+G:\WINDOWS\SYSTEM32\WMP.OCX=Yes
+
+[Package|mmp Setup Package|Distribution]
+Type=single
+Size=
+Title=Mahesh's MediaPlayer
+
+[Package|mmp Setup Package|IconGroups]
+Group0=Mahesh's MPlayer
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|mmp Setup Package|Mahesh's MPlayer]
+Icon1=Maheshmpq.exe
+Title1=Mahesh's MPlayer
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|mmp Setup Package|Package]
+PackageFolder=d:\Mahesh
+ProjectFolder=E:\Plz don't delete it plz
+ServerSideCab=
+File1=d:\Mahesh\setup.exe
+File2=d:\Mahesh\Setup.Lst
+File3=d:\Mahesh\maheshmp.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
